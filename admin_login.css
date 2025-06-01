@@ -1,0 +1,335 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.admin-login,
+.admin-login * {
+    box-sizing: border-box;
+}
+
+.admin-login {
+    background: #1a1919;
+    height: 768px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ellipse-11, .ellipse-10 {
+    animation: blurAndFade 3s ease-in-out infinite alternate; 
+}
+
+.ellipse-11 {
+    background: radial-gradient(closest-side, rgba(177, 235, 253, 1) 0%, rgba(3, 170, 118, 0.29) 100%);
+    border-radius: 50%;
+    width: 363.67px;
+    height: 307.14px;
+    position: absolute;
+    left: 608px;
+    top: 258.5px;
+    transform-origin: 0 0;
+    transform: rotate(-5.128deg) scale(1, 1);
+    filter: blur(50px);
+    animation-delay: 0.5s;
+}
+
+.ellipse-10 {
+    background: radial-gradient(closest-side, rgba(177, 235, 253, 1) 0%, rgba(3, 170, 118, 0.29) 100%);
+    border-radius: 50%;
+    width: 413px;
+    height: 370px;
+    position: absolute;
+    left: 267px;
+    top: 183px;
+    filter: blur(50px);
+    animation-delay: 1s;
+}
+
+.graph-6 {
+    width: 383.75px;
+    height: 351.12px;
+    position: absolute;
+    left: 267px;
+    top: 193.37px;
+    overflow: visible;
+}
+
+.rectangle-1 {
+    border-radius: 0px;
+    width: 405px;
+    height: 526px;
+    position: absolute;
+    left: 511px;
+    top: 121px;
+    overflow: visible;
+}
+
+.login-to-your-admin-account {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 601px;
+    top: 200px;
+    animation: slideUp 1.5s ease-out;
+}
+
+.login {
+    position: absolute;
+    inset: 0;
+}
+
+.login2 {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 141px;
+    height: 38.11px;
+    position: absolute;
+    left: 634px;
+    top: 489px;
+}
+
+.login3 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(132, 216, 190, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: "InstrumentSans-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 634px;
+    top: 498px;
+    width: 141px;
+    height: 22.87px;
+    border: transparent;
+}
+
+.email, .pass {
+    border-radius: 20px;
+    width: 327px;
+    height: 40px;
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 10px;
+    position: absolute;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.email {
+    top: 295px;
+    left: 556px;
+}
+
+.pass {
+    top: 395px;
+    left: 556px;
+}
+
+.txt-email {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 556px;
+    top: 269px;
+    width: 164px;
+}
+
+.txt-pass {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 556px;
+    top: 369px;
+    width: 95px;
+}
+
+.line-4 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #fffdfd;
+    border-width: 1px 0 0 0;
+    width: 320px;
+    height: 0px;
+    position: absolute;
+    left: 554px;
+    top: 236px;
+    transform-origin: 0 0;
+    transform: rotate(-0.179deg) scale(1, 1);
+}
+
+.btn-back {
+    width: 141px;
+    height: 20px;
+    position: absolute;
+    left: 634px;
+    top: 582px;
+}
+
+.txt-back {
+    color: #b2d7d5;
+    text-align: center;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 18px;
+    top: 0px;
+    width: 123px;
+    height: 20px;
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 16px;
+    top: 11px;
+    transform: translate(-17px, -7.36px);
+    z-index: 10;
+    overflow: visible;
+}
+
+.forgot-pass {
+    color: #ffffffce;
+    text-align: center;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    left: 765px;
+    top: 452px;
+    width: 120px;
+    height: 16px;
+}
+
+/* Hover effect for the Login button (no border, transparent fill) */
+.login2:hover {
+    background-color: rgba(164, 216, 193, 0.3); 
+    border-color: transparent; 
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.login3:hover{
+    background-color: rgba(164, 216, 193, 0.3); 
+    border-color: transparent; 
+    cursor: pointer;
+}
+
+
+.forgot-pass:hover {
+    color: #ffffff; 
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+/* Back to Home Button */
+.btn-back {
+    width: 141px;
+    height: 20px;
+    position: absolute;
+    left: 634px;
+    top: 582px;
+    transition: transform 0.2s ease, color 0.3s ease; 
+}
+
+/* Hover effect for Back to Home text */
+.txt-back {
+    color: #b2d7d5;
+    text-align: center;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 18px;
+    top: 0px;
+    width: 123px;
+    height: 20px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for the Back to Home text (white color) */
+.txt-back:hover {
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+/* Animations */
+@keyframes slideUp {
+    0% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes blurAndFade {
+    0% { filter: blur(50px); opacity: 0; }
+    100% { filter: blur(0px); opacity: 1; }
+}
+
+/* Error Overlay and Popup */
+.error-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.error-popup {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 16px;
+    color: #a94442;
+    width: 300px;
+    max-width: 90%;
+}
+
+.error-popup button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: #a94442;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.error-popup button:hover {
+    background-color: #922d2d;
+}
+
+/* Close Button Styling */
+.error-popup p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}

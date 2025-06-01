@@ -1,0 +1,142 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.forgot-password,
+.forgot-password * {
+  box-sizing: border-box;
+}
+.forgot-password {
+  background: #1a1919;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle {
+  border-radius: 0px;
+  width: 405px;
+  height: 373px;
+  position: absolute;
+  left: 505px;
+  top: 183px;
+  overflow: visible;
+}
+.forgot-password2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 635px;
+  top: 243px;
+}
+.txt-email {
+    padding: 10px;
+  border-radius: 20px;
+  width: 327px;
+  height: 40px;
+  position: absolute;
+  left: 542px;
+  top: 350px;
+  overflow: visible;
+}
+.email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 548px;
+  top: 324px;
+  width: 164px;
+}
+.line-4 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #fffdfd;
+  border-width: 1px 0 0 0;
+  width: 320px;
+  height: 0px;
+  position: absolute;
+  left: 548px;
+  top: 283px;
+  transform-origin: 0 0;
+  transform: rotate(-0.179deg) scale(1, 1);
+}
+.btn-back {
+  width: 141px;
+  height: 20px;
+  position: absolute;
+  left: 623px;
+  top: 501px;
+}
+.txt-back {
+  color: #b2d7d5;
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 0px;
+  width: 123px;
+  height: 20px;
+}
+.arrow {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 16px;
+    top: 11px;
+    transform: translate(-17px, -7.36px);
+    z-index: 10;
+    overflow: visible;
+}
+.btn-next {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 118px;
+  height: 33px;
+  position: absolute;
+  left: 644px;
+  top: 429px;
+  overflow: hidden;
+}
+.next {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(132, 216, 190, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 115px;
+  height: 23px;
+border: transparent;
+}
+.btn-next:hover {
+    background-color: rgba(164, 216, 193, 0.3); 
+    border-color: transparent; 
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+.txt-back:hover {
+    color: #ffffff; 
+    cursor: pointer;
+}
+  

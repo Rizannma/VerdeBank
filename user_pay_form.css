@@ -1,0 +1,379 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.paybills-form,
+.paybills-form * {
+    box-sizing: border-box;
+}
+.paybills-form {
+    background: #1a1919;
+    height: 740px;
+    position: relative;
+    overflow: hidden;
+}
+.rectangle-1 {
+    border-radius: 0px;
+    width: 405px;
+    height: 540px;
+    position: absolute;
+    left: 511px;
+    top: 114px;
+    overflow: visible;
+}
+.pay-your-bills {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 640px;
+    top: 170px;
+}
+.btn-confirm {
+    position: absolute;
+    inset: 0;
+}
+.button {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 141px;
+    height: 38.11px;
+    position: absolute;
+    left: 643px;
+    top: 528px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    border: 1px solid #fff;
+    background: none;
+    z-index: 10;
+}
+
+.confirm {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(132, 216, 190, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "InstrumentSans-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: rgba(164, 216, 193, 0.3);
+    border-color: transparent;
+    transform: scale(1.05);
+}
+
+.button:hover {
+    background: linear-gradient(
+        180deg,
+        rgba(132, 216, 189, 0.521) 0%,
+        rgba(132, 216, 189, 0.432) 100%
+    );
+    -webkit-text-fill-color: transparent;
+}
+
+.frame-49 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 327px;
+    position: absolute;
+    left: 554px;
+    top: 239px;
+}
+.to-account-number {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.txt-biller {
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 327px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+}
+.to-account-name {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.txt-accountname {
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 327px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+}
+.amount {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.txt-amount {
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 327px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+}
+
+.line-4 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #fffdfd;
+    border-width: 1px 0 0 0;
+    width: 320px;
+    height: 0px;
+    position: absolute;
+    left: 554px;
+    top: 208px;
+    transform-origin: 0 0;
+    transform: rotate(-0.179deg) scale(1, 1);
+}
+.btn-back {
+    width: 164px;
+    height: 20px;
+    position: absolute;
+    left: 630px;
+    top: 590px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arrow {
+    width: 16px;
+    height: auto;
+    position: static;
+    top: 0;
+    left: 0;
+    transform: none;
+    overflow: visible;
+}
+
+.txt-back {
+    color: #b2d7d5;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: auto;
+    height: 20px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+.txt-back:hover {
+  color: #ffffff; 
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+input.txt-accountnumber,
+input.txt-accountname,
+input.txt-amount,
+input.txt-fee {
+    width: 320px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0;
+    display: block;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Overlay Modal */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 26, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Modal Container */
+.paybills-confirmation {
+  width: 360px;
+  max-width: 90%;
+  position: relative;
+  padding: 20px;
+  background: #3a3838;
+  border-radius: 12px;
+  height: 360px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 150px;
+  margin-left: 535px;
+}
+
+
+.payment-confirmation {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 90px;
+  top: 28px;
+}
+
+.you-are-about-to-pay-amount-with-a-fee-of-0-to-biller-this-will-be-deducted-to-your-checking-account {
+  color: #ffffff;
+  text-align: justify;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  width: 300px;
+}
+
+.please-confirm-with-your-4-digit-transaction-pin-to-proceed {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 155px;
+  width: 300px;
+}
+
+.frame-39 {
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  height: 38px;
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  overflow: hidden;
+}
+.transaction-pin {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  box-sizing: border-box; 
+}
+
+.transaction-pin::placeholder {
+  color: #aaa;
+}
+
+
+.frame-40, .frame-41 {
+  font-family: "InstrumentSans-Bold", sans-serif;
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+  height: 36px;
+  position: absolute;
+  top: 275px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.frame-40 {
+  width: 120px;
+  left: 32px;
+  background-color: transparent;
+}
+
+.cancel {
+  color: #ffffff;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.frame-40:hover {
+  background-color: #ffffff;
+}
+
+.frame-40:hover .cancel {
+  color: #3a3838;
+}
+
+.frame-41 {
+  color: #ffffff;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: 130px;
+  left: 200px;
+  background-color: #4d4a4a;
+}
+
+.frame-41:hover{
+  background-color: #ffffff;
+  color: #3a3838;
+}
+
+
+.line-7 {
+  margin-top: -1px;
+  border-top: 1px solid #bfbbbb;
+  width: 85%;
+  height: 0;
+  position: absolute;
+  left: 27px;
+  top: 65px;
+}
+
+

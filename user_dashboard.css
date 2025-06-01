@@ -1,0 +1,690 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+.user-dashboard,
+.user-dashboard * {
+  box-sizing: border-box;
+}
+.user-dashboard {
+  background: #1a1919;
+  height: 740px;
+  position: relative;
+  overflow: hidden;
+}
+.greetings {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 298px;
+  top: 55px;
+  width: 287px;
+}
+.subheading {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 298px;
+  top: 84px;
+  width: 388px;
+}
+.checking-balance {
+  background: #252525;
+  border-radius: 20px;
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  left: 986px;
+  top: 122px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+._100-000-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 29px;
+  top: 90px;
+}
+.account-balance {
+  color: #7b7575;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 30px;
+  top: 52px;
+}
+.checking-account {
+  color: #7b7575;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 30px;
+  top: 137px;
+}
+.card-logo-2 {
+  height: auto;
+  position: absolute;
+  left: 245px;
+  top: 15px;
+  overflow: visible;
+}
+
+.btn-logout {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(72, 212, 255, 0.78);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 139px;
+  height: 44px;
+  position: absolute;
+  left: 1165px;
+  top: 49px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-logout:hover {
+  background-color: rgba(72, 212, 255, 0.1); 
+  border-color: #48d4ff; 
+}
+
+.logout {
+  background: none;
+  border: none;
+  color: #48d5ff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.btn-logout:hover .logout {
+  color: #23b8e2;
+  cursor: pointer;
+}
+
+.savings-balance {
+  background: #252525;
+  border-radius: 20px;
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  left: 639px;
+  top: 122px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+._200-000-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 29px;
+  top: 90px;
+}
+.savings-account {
+  color: #7b7575;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 30px;
+  top: 137px;
+}
+.card-logo-22 {
+  height: auto;
+  position: absolute;
+  left: 243px;
+  top: 15px;
+  overflow: visible;
+}
+.total-balance {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  border-radius: 20px;
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  left: 295px;
+  top: 122px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+._300-000-00 {
+  color: #191919;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 29px;
+  top: 90px;
+}
+.total-balance2 {
+  color: #2a2929;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 30px;
+  top: 52px;
+}
+.savings-checking-account {
+  color: #2a2929;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 30px;
+  top: 137px;
+}
+.card-logo-1 {
+  height: auto;
+  position: absolute;
+  left: 247px;
+  top: 18px;
+  overflow: visible;
+}
+.recent-transactions {
+  width: 459px;
+  height: 348px;
+  position: absolute;
+  left: 299px;
+  top: 323px;
+  overflow: hidden;
+}
+.bg-recent-transactions {
+  background: #252525;
+  border-radius: 10px;
+  width: 460px;
+  height: 311px;
+  position: absolute;
+  left: -1px;
+  top: 37px;
+}
+.title-recent-transaction {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: -1px;
+  top: 4px;
+  width: 388px;
+}
+.btn-view-all {
+  color: #4d9cb3;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 393px;
+  top: 6px;
+  width: 75px;
+  background: none;
+  border: none;
+}
+.btn-view-all:hover {
+  cursor: pointer;
+  color: #97e8e1;
+}
+.account-summary {
+  width: 351px;
+  height: 340px;
+  position: absolute;
+  left: 776px;
+  top: 331px;
+  overflow: hidden;
+}
+.bg-account-summary {
+  background: #252525;
+  border-radius: 10px;
+  width: 330px;
+  height: 311px;
+  position: absolute;
+  left: 12px;
+  top: 29px;
+}
+.title-account-summary {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: -2px;
+  width: 330px;
+}
+.title-date-time {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1138px;
+  top: 329px;
+  width: 175px;
+}
+.sidebar {
+  background: #0f0e0e;
+  padding: 20px 0px 20px 0px;
+  width: 250px;
+  height: 740px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 74px;
+  top: 692px;
+  width: 167px;
+}
+.account-type {
+  color: rgba(150, 231, 255, 0.75);
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 74px;
+  top: 709px;
+  width: 167px;
+}
+.img-user {
+  border-radius: 50%;
+  width: 52px;
+  height: 51px;
+  position: absolute;
+  left: 12px;
+  top: 679px;
+  object-fit: cover;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 168px;
+  position: absolute;
+  left: 23px;
+  top: 21px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.verde-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.verde-bank {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 53px;
+  top: 8px;
+  width: 115px;
+}
+.active {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 101px;
+  overflow: visible;
+}
+.img-dashboard {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 115px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-dashboard {
+  color: #97e8e1;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 79.5px;
+  top: 115px;
+  width: 119px;
+}
+.txt-bills {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 186px;
+  width: 101px;
+}
+.img-transfer {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-transfer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 258px;
+  width: 71px;
+}
+.img-deposit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 331px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-deposit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 330px;
+  width: 69px;
+}
+.img-cards {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-cards {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79px;
+  top: 402px;
+  width: 83px;
+}
+.img-profile {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 547px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79px;
+  top: 474px;
+  width: 83px;
+}
+.txt-profile {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 546px;
+  width: 62px;
+  z-index: 10;
+}
+.img-bills {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 187px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.line-2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: rgba(150, 231, 255, 0.75);
+  border-width: 1px 0 0 0;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 668px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-1 {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  overflow: visible;
+}
+.money-bag-1 {
+  width: 24.44px;
+  height: 22px;
+  position: absolute;
+  left: 48px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 24.44/22;
+}
+.date {
+  position: absolute;
+  inset: 0;
+}
+.bg-date {
+  background: #252525;
+  border-radius: 10px;
+  width: 173px;
+  height: 148px;
+  position: absolute;
+  left: 1138px;
+  top: 360px;
+}
+.date2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 1155px;
+  top: 422px;
+  width: 148px;
+}
+.txt-today-is {
+  color: #8f8d8d;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 1155px;
+  top: 391px;
+  width: 173px;
+}
+.time {
+  position: absolute;
+  inset: 0;
+}
+.bg-time {
+  background: #252525;
+  border-radius: 10px;
+  width: 173px;
+  height: 148px;
+  position: absolute;
+  left: 1138px;
+  top: 523px;
+}
+.time2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  position: absolute;
+  left: 1135px;
+  top: 575px;
+  width: 173px;
+}
+.lbl-time {
+  color: #8f8d8d;
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1138px;
+  top: 621px;
+  width: 173px;
+}
+
+/* Hover Effects for Sidebar Text */
+.txt-dashboard:hover,
+.txt-bills:hover,
+.txt-transfer:hover,
+.txt-deposit:hover,
+.txt-cards:hover,
+.txt-account:hover,
+.txt-profile:hover {
+  cursor: pointer;
+  color: #97e8e1;
+}
+
+/* Animation Keyframe */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animated Elements */
+.greetings,
+.subheading,
+.savings-balance,
+.checking-balance,    
+.total-balance,
+.title-account-summary,
+.title-recent-transaction,
+.title-transac,
+.title-date-time,
+.txt-today-is,
+.date2,
+.time2,
+.lbl-time,
+.btn-view-all,
+.btn-logout {
+  animation: fadeSlideUp 1s ease forwards;
+  opacity: 0;
+}
+
+/* Staggered Effect */
+.greetings { animation-delay: 0.1s; }
+.subheading { animation-delay: 0.2s; }
+.checking-balance { animation-delay: 0.3s; }
+.savings-balance { animation-delay: 0.4s; }
+.total-balance { animation-delay: 0.5s; }
+.title-account-summary { animation-delay: 0.6s; }
+.title-recent-transaction { animation-delay: 0.7s; }
+.title-date-time, .txt-today-is, .date2, .time2, .lbl-time { animation-delay: 0.8s; }
+.btn-view-all { animation-delay: 0.9s; }
+.btn-logout { animation-delay: 1s; }
+
+.savings-balance,
+.checking-balance,
+.total-balance {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.savings-balance:hover,
+.checking-balance:hover,
+.total-balance:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+

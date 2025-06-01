@@ -1,0 +1,200 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.transactions,
+.transactions * {
+  box-sizing: border-box;
+}
+
+.transactions {
+  background: #1a1919;
+  min-height: 100vh;  
+  position: relative;
+  overflow-x: hidden;   
+  overflow-y: auto;
+  padding-bottom: 5px;
+}
+
+.title {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 114px;
+  top: 82px;
+  width: 346px;
+  opacity: 0;
+  animation: fadeSlideIn 0.6s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.btn-back {
+  width: 175px;
+  height: 20px;
+  position: absolute;
+  left: 1094px;
+  top: 82px;
+  opacity: 0;
+  animation: fadeSlideIn 0.6s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+.txt-back {
+  color: #8fe7dd;
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 0;
+  width: 165px;
+  height: 20px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.txt-back:hover {
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.arrow {
+  width: 16px;
+  height: auto;
+  position: absolute;
+  left: 16px;
+  top: 11px;
+  transform: translate(-17px, -7.36px);
+  overflow: visible;
+}
+
+.box {
+  position: relative; /* or remove position */
+  margin-top: 169px; /* remove fixed top */
+  margin-left: 113px;
+  margin-bottom: 60px;
+  background: #252525;
+  width: 1149px;
+  padding: 100px 20px 30px 20px; /* extra bottom padding */
+  height: auto;
+  opacity: 0;
+  animation: fadeSlideIn 0.6s ease-out forwards;
+  animation-delay: 0.4s;
+  box-sizing: border-box;
+}
+
+
+.design {
+  width: 82.7px;
+  height: 9px;
+  position: absolute;
+  left: 195.72px;
+  top: 125.15px;
+  transform: translate(-82.72px, -0.15px);
+  overflow: visible;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Table styles inside .box */
+.box table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+}
+
+.box th,
+.box td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #444;
+}
+
+.box th {
+  background-color: #333333;
+  text-align: left;
+  font-weight: 700;
+}
+
+.box tr:hover {
+  background-color: #2a2a2a;
+}
+
+.box td.amount {
+  text-align: right;
+  color: #8fe7dd;
+  font-weight: 600;
+}
+
+.no-transactions {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 18px;
+  color: #888;
+}
+
+.filter-section {
+  background: none;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.transaction-list {
+  max-height: calc(100% - 80px);
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 0;
+}
+
+.txtbox {
+  width: 250px;
+}
+
+.filter-section input,
+.filter-section button {
+  background: transparent;
+  border: 1px solid #8fe7dd;
+  color: #8fe7dd;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.filter-section input::placeholder {
+  color: #8fe7ddaa;
+}
+
+.filter-section input:focus,
+.filter-section button:hover {
+  border-color: #4da2a0;
+  cursor: pointer;
+}
+
+.filter-section button:hover {
+  background: #4da2a18f;
+  color: #ffffff; /* font color turns black on hover */
+}
+
+ .highlight {
+    background-color: #17716E;
+    font-weight: bold;
+  }

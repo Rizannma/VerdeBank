@@ -1,0 +1,878 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+.account-sc,
+.account-sc * {
+  box-sizing: border-box;
+}
+.account-sc {
+  background: #1a1919;
+  height: 740px;
+  position: relative;
+  overflow: hidden;
+}
+.greetings {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 334px;
+  top: 84px;
+  width: 287px;
+}
+.subheading {
+  color: #ffffff;
+  text-align: justify;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 334px;
+  top: 122px;
+  width: 964px;
+}
+.subheading2 {
+  color: #4d9cb3;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 334px;
+  top: 180px;
+  width: 964px;
+}
+.savings-card {
+  background: #191919;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #9adbee;
+  border-width: 1px;
+  width: 433px;
+  height: 223px;
+  position: absolute;
+  left: 334px;
+  top: 224px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.toll {
+  height: auto;
+  position: absolute;
+  left: 319.12px;
+  top: 36.97px;
+}
+.ellipse-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  border-radius: 50%;
+  opacity: 0.2;
+  width: 210.51px;
+  height: 179.72px;
+  position: absolute;
+  left: 282.79px;
+  top: 139.76px;
+  filter: blur(100px);
+}
+.rectangle-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  opacity: 0.1;
+  width: 442.3px;
+  height: 49.44px;
+  position: absolute;
+  left: -0.3px;
+  top: 173px;
+}
+.savings-account-number {
+  color: #a7ebff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 174px;
+  top: 184px;
+  width: 244px;
+}
+.full-name {
+  color: #a7ebff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 115px;
+  width: 194px;
+}
+.savings-account-type {
+  color: #a7ebff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 141px;
+  width: 194px;
+}
+.account-number {
+  color: #a7ebff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 190px;
+  width: 106px;
+}
+.graph-6 {
+  height: auto;
+  position: absolute;
+  left: 24px;
+  top: 21px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.savings-verdebank {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 80px;
+  top: 29px;
+  width: 115px;
+  z-index: 10;
+}
+.toll2 {
+  width: 8.26%;
+  height: 11.66%;
+  position: absolute;
+  right: -3.98%;
+  left: 95.73%;
+  bottom: 65.69%;
+  top: 22.65%;
+  transform: translate(-36.93px, -25.37px);
+  overflow: visible;
+}
+.checking-card {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #9adbee;
+  border-width: 1px;
+  width: 433px;
+  height: 223px;
+  position: absolute;
+  left: 851px;
+  top: 224px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.toll3 {
+  height: auto;
+  position: absolute;
+  left: 319.12px;
+  top: 36.97px;
+  transform: translate(-26.12px, -24.97px);
+  overflow: visible;
+}
+.rectangle-12 {
+  background: #fffefe;
+  opacity: 0.1;
+  width: 442.3px;
+  height: 49.44px;
+  position: absolute;
+  left: -0.3px;
+  top: 173px;
+}
+.checking-account-number {
+  color: #191919;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 174px;
+  top: 184px;
+  width: 244px;
+}
+.full-name2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 115px;
+  width: 194px;
+}
+.account-type2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 141px;
+  width: 194px;
+}
+.account-number2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  top: 190px;
+  width: 106px;
+}
+.graph-62 {
+  height: auto;
+  position: absolute;
+  left: 24px;
+  top: 21px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.verde-bank2 {
+  color: #191919;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 80px;
+  top: 29px;
+  width: 115px;
+}
+.toll4 {
+  width: 8.26%;
+  height: 11.66%;
+  position: absolute;
+  right: -3.98%;
+  left: 95.73%;
+  bottom: 65.69%;
+  top: 22.65%;
+  transform: translate(-36.93px, -25.37px);
+  overflow: visible;
+}
+.btn-goals {
+  border-radius: 8px;
+  border-style: solid;
+  border: 1px solid #48d4ffc7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 20px;
+  position: absolute;
+  left: 620px;
+  top: 474px;
+  text-decoration: none;
+}
+.view-goals {
+  color: #48d5ff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+}
+.btn-goals:hover,
+.btn-transactions:hover {
+  background-color: rgba(72, 213, 255, 0.1);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.btn-transactions {
+  border-radius: 8px;
+  border-style: solid;
+  border: 1px solid #48d4ffc7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 20px;
+  position: absolute;
+  left: 1080px;
+  top: 474px;
+  text-decoration: none;
+}
+.view-transactions {
+  color: #48d5ff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.sidebar {
+  background: #0f0e0e;
+  padding: 20px 0px 20px 0px;
+  width: 250px;
+  height: 700px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 74px;
+  top: 692px;
+  width: 167px;
+}
+.account-type {
+  color: rgba(150, 231, 255, 0.75);
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 74px;
+  top: 709px;
+  width: 167px;
+}
+.img-user {
+  border-radius: 50%;
+  width: 52px;
+  height: 51px;
+  position: absolute;
+  left: 12px;
+  top: 679px;
+  object-fit: cover;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 168px;
+  position: absolute;
+  left: 23px;
+  top: 21px;
+}
+.verde-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.verde-bank {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 53px;
+  top: 8px;
+  width: 115px;
+}
+.active {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 388px;
+  overflow: visible;
+}
+.img-dashboard {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 115px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-dashboard {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 115px;
+  width: 119px;
+}
+.txt-bills {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 186px;
+  width: 101px;
+}
+.img-transfer {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-transfer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 258px;
+  width: 71px;
+}
+.img-deposit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 331px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-deposit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 330px;
+  width: 69px;
+}
+.img-cards {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-cards {
+  color: #97e8e1;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 79px;
+  top: 402px;
+  width: 83px;
+}
+.img-profile {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 547px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-account {
+  color: #97e8e1;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 79px;
+  top: 474px;
+  width: 83px;
+}
+.txt-profile {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 546px;
+  width: 62px;
+  z-index: 10;
+}
+.img-bills {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 187px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.line-2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: rgba(150, 231, 255, 0.75);
+  border-width: 1px 0 0 0;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 668px;
+}
+.line-1 {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  overflow: visible;
+}
+.money-bag-1 {
+  width: 24.44px;
+  height: 22px;
+  position: absolute;
+  left: 48px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 24.44/22;
+}
+.btn-transfer {
+  background: none;
+  border: none;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: 772px;
+  top: 318px;
+  object-fit: cover;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+/* Overlay CSS */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.internal-transfer,
+.internal-transfer * {
+  box-sizing: border-box;
+}
+
+.internal-transfer {
+  background: #3a3838;
+  border-radius: 15px;
+  height: 530px;
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.internal-transfer2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 110px;
+  top: 32px;
+}
+
+.sender-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  width: 285px;
+}
+
+.receiver-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 180px;
+  width: 290px;
+}
+
+.amount {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 260px;
+  width: 290px;
+}
+
+.sender,
+.receiver,
+.amount2 {
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  width: 300px;
+  height: 36px;
+  position: absolute;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.sender {
+  left: 30px;
+  top: 125px;
+}
+
+.receiver {
+  left: 30px;
+  top: 210px;
+}
+
+.amount2 {
+  left: 30px;
+  top: 285px;
+}
+
+.btn-cancel,
+.btn-confirm {
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  height: 36px;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  left: 30px;
+  top: 450px;
+  width: 105px;
+}
+
+.btn-confirm {
+  background: #4d4a4a;
+  left: 195px;
+  top: 450px;
+  width: 125px;
+}
+
+.cancel {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 28px;
+  top: 8px;
+}
+
+.confirm {
+  color: #ffffff;
+  text-align: center;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 125px;
+}
+
+.line {
+  margin-top: -1px;
+  border-top: 1px solid #bfbbbb;
+  width: 350px;
+  height: 0;
+  position: absolute;
+  left: 1px;
+  top: 65px;
+  transform-origin: 0 0;
+  transform: rotate(0.139deg) scale(1, 1);
+}
+/* Fade in and slide up */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fadeSlideUp immediately to all */
+.greetings,
+.subheading,
+.subheading2,
+.savings-card,
+.checking-card,
+.btn-transfer {
+  animation: fadeSlideUp 1s ease forwards;
+  opacity: 0; /* start hidden */
+}
+
+/* Subtle hover scale for transfer button */
+.btn-transfer {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-transfer:hover {
+  transform: scale(1.1);
+}
+
+/* PIN instruction */
+.pin-instruction {
+  color: #fff;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 340px;
+  width: 300px;
+}
+
+/* PIN input */
+.pin-input {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  width: 300px;
+  height: 36px;
+  position: absolute;
+  left: 30px;
+  top: 380px;
+  padding-left: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+}
+.card {
+  cursor: pointer;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card.flip .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+.savings-balance-label,
+.savings-balance-amount {
+  color: white;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.checking-balance-label,
+.checking-balance-amount {
+  color: black;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+#popup-message {
+    font-family: "InstrumentSans-Medium", sans-serif;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s;
+  }
+  #popup-message.error {
+    background-color: #ffe5e5;
+    color: #b30000;
+    border: 1px solid #b30000;
+  }
+  #popup-message.success {
+    background-color: #e0f7e9;
+    color: #006633;
+    border: 1px solid #006633;
+  }

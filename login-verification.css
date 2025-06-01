@@ -1,0 +1,239 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+ .login-verification,
+.login-verification * {
+  box-sizing: border-box;
+}
+.login-verification {
+  background: #1a1919;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+}
+.verification-rectangle {
+  border-radius: 0px;
+  width: 405px;
+  height: 426px;
+  position: absolute;
+  left: 480px;
+  top: 171px;
+  overflow: visible;
+}
+.login-verification2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 610px;
+  top: 231px;
+}
+.txt-otp {
+  border-radius: 20px;
+  width: 327px;
+  height: 40px;
+  position: absolute;
+  left: 517px;
+  top: 330px;
+  overflow: visible;
+  padding: 10px;
+}
+.otp {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 523px;
+  top: 304px;
+  width: 164px;
+}
+.line-4 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #fffdfd;
+  border-width: 1px 0 0 0;
+  width: 320px;
+  height: 0px;
+  position: absolute;
+  left: 523px;
+  top: 271px;
+  transform-origin: 0 0;
+  transform: rotate(-0.179deg) scale(1, 1);
+}
+.btn-back {
+  width: 141px;
+  height: 20px;
+  position: absolute;
+  left: 614px;
+  top: 535px;
+}
+.txt-back {
+  color: #b2d7d5;
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 0px;
+  width: 123px;
+  height: 20px;
+}
+.txt-back:hover {
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 16px;
+    top: 11px;
+    transform: translate(-17px, -7.36px);
+    z-index: 10;
+    overflow: visible;
+}
+.btn {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 136px;
+  height: 35px;
+  position: absolute;
+  left: 619px;
+  top: 439px;
+  overflow: hidden;
+}
+.verify {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(132, 216, 190, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 115px;
+  height: 23px;
+  border: transparent;
+}
+.btn:hover {
+    background-color: rgba(164, 216, 193, 0.3); 
+    border-color: transparent; 
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.verify:hover{
+    background-color: rgba(164, 216, 193, 0.3); 
+    border-color: transparent; 
+    cursor: pointer;
+}
+.btn-resend-otp {
+  background: transparent;
+  border:transparent;
+  color: #b2d7d5;
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 609px;
+  top: 487px;
+  width: 157px;
+  height: 20px;
+}
+.btn-resend-otp:hover{
+  color: #ffffff; 
+  transform:scale(1.1);
+  cursor: pointer;
+}
+.otp-status {
+  color: #b2d7d5;
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 717px;
+  top: 387px;
+  width: 157px;
+  height: 20px;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup {
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+}
+
+.popup.error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+.popup.success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.popup button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup.success button {
+    background-color: #155724;
+}
+
+.popup.error button {
+    background-color: #a94442;
+}
+
+.popup button:hover {
+    opacity: 0.9;
+}
+
+
+

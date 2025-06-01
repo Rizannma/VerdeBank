@@ -1,0 +1,764 @@
+body, html{
+    margin:0;
+    padding: 0;
+}
+.deposit-sc,
+.deposit-sc * {
+  box-sizing: border-box;
+}
+.deposit-sc {
+  background: #1a1919;
+  height: 740px;
+  position: relative;
+  overflow: hidden;
+}
+.greetings {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 428px;
+  top: 86px;
+  width: 368px;
+}
+.subheading {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 428px;
+  top: 115px;
+  width: 776px;
+}
+.sidebar {
+  background: #0f0e0e;
+  padding: 20px 0px 20px 0px;
+  width: 250px;
+  height: 740px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.name {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 74px;
+  top: 692px;
+  width: 167px;
+}
+.account-type {
+  color: rgba(150, 231, 255, 0.75);
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 74px;
+  top: 709px;
+  width: 167px;
+}
+.img-user {
+  border-radius: 50%;
+  width: 52px;
+  height: 51px;
+  position: absolute;
+  left: 12px;
+  top: 679px;
+  object-fit: cover;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 168px;
+  position: absolute;
+  left: 23px;
+  top: 21px;
+}
+.verde-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.verde-bank {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "InstrumentSans-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 53px;
+  top: 8px;
+  width: 115px;
+}
+.active {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 315px;
+  overflow: visible;
+}
+.img-dashboard {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 115px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-dashboard {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 115px;
+  width: 119px;
+}
+.txt-bills {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 186px;
+  width: 101px;
+}
+.img-transfer {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 259px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-transfer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79px;
+  top: 258px;
+  width: 83px;
+}
+.img-deposit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 331px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-deposit {
+  color: #97e8e1;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 79.5px;
+  top: 330px;
+  width: 69px;
+}
+.img-cards {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-cards {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79px;
+  top: 402px;
+  width: 83px;
+}
+.img-profile {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 547px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.txt-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79px;
+  top: 474px;
+  width: 83px;
+}
+.txt-profile {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 79.5px;
+  top: 546px;
+  width: 62px;
+}
+.img-bills {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50px;
+  top: 187px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.line-2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: rgba(150, 231, 255, 0.75);
+  border-width: 1px 0 0 0;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 668px;
+}
+.line-1 {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  overflow: visible;
+}
+.money-bag-1 {
+  width: 24.44px;
+  height: 22px;
+  position: absolute;
+  left: 48px;
+  top: 402px;
+  object-fit: cover;
+  aspect-ratio: 24.44/22;
+}
+.subheading2 {
+  color: #4d9cb3;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 423px;
+  top: 171px;
+  width: 388px;
+}
+.card6 {
+  background: #252525;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 231px;
+  height: 146px;
+  position: absolute;
+  left: 965px;
+  top: 406px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  opacity: 0.1;
+  width: 234.14px;
+  height: 39.36px;
+  position: absolute;
+  left: 1.07px;
+  top: 105.63px;
+}
+._10-fee-charge {
+  color: #3cc097;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 132px;
+  top: 119px;
+}
+.logo2 {
+  width: 152px;
+  height: 36px;
+  position: absolute;
+  left: 18px;
+  top: 42px;
+}
+.bpi {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 11px;
+  width: 116px;
+}
+.bpi-icon {
+  width: 38px;
+  height: 47px;
+  position: absolute;
+  left: 2px;
+  top: -4px;
+  object-fit: cover;
+  aspect-ratio: 38/47;
+}
+.card1 {
+  background: #252525;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 231px;
+  height: 146px;
+  position: absolute;
+  left: 424px;
+  top: 214px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.logo3 {
+  width: 152px;
+  height: 36px;
+  position: absolute;
+  left: 18px;
+  top: 38px;
+}
+.china-bank {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 11px;
+  width: 127px;
+}
+.chinabank-icon {
+  width: 57px;
+  height: 33px;
+  position: absolute;
+  left: -5px;
+  top: 6px;
+  object-fit: cover;
+}
+.free-of-charge {
+  color: #3cc097;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 130px;
+  top: 119px;
+}
+.card2 {
+  background: #252525;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 231px;
+  height: 146px;
+  position: absolute;
+  left: 694px;
+  top: 214px;
+  overflow: hidden;
+}
+.logo4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 152px;
+  height: 36px;
+  position: absolute;
+  left: 18px;
+  top: 38px;
+}
+.metrobank-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 43px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 48/43;
+}
+.metro-bank {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 11px;
+  width: 120px;
+}
+.card3 {
+  background: #252525;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 231px;
+  height: 146px;
+  position: absolute;
+  left: 964px;
+  top: 214px;
+  overflow: hidden;
+}
+.land-bank {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 11px;
+  width: 127px;
+}
+.landbank-icon {
+  width: 52px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+.free-of-charge2 {
+  color: #3cc097;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 129px;
+  top: 119px;
+}
+.card5 {
+  background: #252525;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 231px;
+  height: 146px;
+  position: absolute;
+  left: 694px;
+  top: 406px;
+  overflow: hidden;
+}
+._30-fee-charge {
+  color: #3cc097;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 136px;
+  top: 119px;
+}
+.logo5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 152px;
+  height: 36px;
+  position: absolute;
+  left: 18px;
+  top: 43px;
+}
+.bdo-icon {
+  flex-shrink: 0;
+  width: 39px;
+  height: 40.18px;
+  position: static;
+}
+.ellipse-5 {
+  background: #fff5f5;
+  border-radius: 50%;
+  width: 39px;
+  height: 40.18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-6 {
+  background: #252525;
+  border-radius: 50%;
+  width: 30.93px;
+  height: 30.91px;
+  position: absolute;
+  left: 4.03px;
+  top: 4.64px;
+}
+.bdo3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 11px;
+  width: 100px;
+}
+.card4 {
+  background: #252525;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 231px;
+  height: 146px;
+  position: absolute;
+  left: 420px;
+  top: 406px;
+  overflow: hidden;
+}
+.rectangle-12 {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  opacity: 0.1;
+  width: 234.14px;
+  height: 39.36px;
+  position: absolute;
+  left: 1.53px;
+  top: 107.54px;
+}
+.logo6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 152px;
+  height: 36px;
+  position: absolute;
+  left: 20px;
+  top: 42px;
+}
+.seabank-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 44px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 40/44;
+}
+.sea-bank {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 11px;
+  width: 100px;
+}
+._15-fee-charge {
+  color: #3cc097;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 135px;
+  top: 119px;
+}
+
+.next{
+  background: none;  
+  border: none;
+  cursor: pointer;
+  color: #cce0e2;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.next:hover {
+ color: #94cacf;
+}
+.btn-next {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 112, 135, 1) 0%,
+    rgba(3, 170, 118, 1) 100%
+  );
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 142px;
+  height: 40px;
+  position: absolute;
+  left: 1034px;
+  top: 610px;
+  cursor: pointer; /* add cursor on hover */
+  transition: background 0.3s ease;
+}
+
+/* Hover effect */
+.btn-next:hover {
+  cursor:pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 170, 118, 1) 0%,
+    rgba(34, 112, 135, 1) 100%
+  );
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Payment Method Cards */
+.selectable-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.selectable-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.selectable-card.selected {
+  border: 3px solid #027a65;
+  box-shadow: 0 0 15px rgba(2, 122, 101, 0.4);
+}
+/* Hover Effects for Sidebar Text */
+.txt-dashboard:hover,
+.txt-bills:hover,
+.txt-transfer:hover,
+.txt-deposit:hover,
+.txt-cards:hover,
+.txt-account:hover,
+.txt-profile:hover {
+  cursor: pointer;
+  color: #97e8e1;
+}
+
+/* Animation Keyframe */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Animated Elements */
+.greetings,
+.subheading,
+.subheading2,
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.btn-next{
+  animation: fadeSlideUp 1s ease forwards;
+  opacity: 0;
+}
+
+/* Error Message */
+.alert-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.alert-box {
+  background: #EBD8D8;
+  padding: 25px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 16px;
+  color: #922D2D;
+}
+
+.alert-box button {
+  margin-top: 15px;
+  padding: 8px 20px;
+  background-color: #922D2D;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+

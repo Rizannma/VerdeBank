@@ -1,0 +1,394 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.paybills-form,
+.paybills-form * {
+    box-sizing: border-box;
+}
+.paybills-form {
+    background: #1a1919;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+.rectangle-1 {
+    border-radius: 0px;
+    width: 405px;
+    height: 700px;
+    position: absolute;
+    left: 511px;
+    top: 114px;
+    overflow: visible;
+}
+.pay-your-bills {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 620px;
+    top: 170px;
+}
+.btn-confirm {
+    position: absolute;
+    inset: 0;
+}
+.button {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 141px;
+    height: 38.11px;
+    position: absolute;
+    left: 643px;
+    top: 700px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    border: 1px solid #fff;
+    background: none;
+}
+
+.confirm {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(132, 216, 190, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "InstrumentSans-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: rgba(164, 216, 193, 0.3);
+    border-color: transparent;
+    transform: scale(1.05);
+}
+
+.button:hover {
+    background: linear-gradient(
+        180deg,
+        rgba(132, 216, 189, 0.521) 0%,
+        rgba(132, 216, 189, 0.432) 100%
+    );
+    -webkit-text-fill-color: transparent;
+}
+
+.frame-49 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 327px;
+    position: absolute;
+    left: 554px;
+    top: 239px;
+}
+.to-account-number {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.txt-accountnumber {
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 327px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+}
+.to-account-name {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.txt-accountname {
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 327px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+}
+.amount {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.txt-amount {
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 327px;
+    height: 40px;
+    position: relative;
+    overflow: visible;
+}
+.line-4 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #fffdfd;
+    border-width: 1px 0 0 0;
+    width: 320px;
+    height: 0px;
+    position: absolute;
+    left: 554px;
+    top: 208px;
+    transform-origin: 0 0;
+    transform: rotate(-0.179deg) scale(1, 1);
+}
+.btn-back {
+    width: 164px;
+    height: 20px;
+    position: absolute;
+    left: 630px;
+    top: 760px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arrow {
+    width: 16px;
+    height: auto;
+    position: static;
+    top: 0;
+    left: 0;
+    transform: none;
+    overflow: visible;
+}
+
+.txt-back {
+    color: #b2d7d5;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: auto;
+    height: 20px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+.txt-back:hover {
+  color: #ffffff; 
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+input.txt-accountnumber,
+input.txt-accountname,
+input.txt-amount {
+    width: 320px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0;
+    display: block;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    box-sizing: border-box;
+}
+.label-paymentmethod {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+input.txt-paymentmethod {
+    width: 320px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0;
+    display: block;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    box-sizing: border-box;
+}
+/* Pop Up */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 30px;
+  height: 100dvh;
+  width: 100vw;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+}
+
+.deposit-modal,
+.deposit-modal * {
+  box-sizing: border-box;
+}
+
+.deposit-modal {
+  background: #3a3838;
+  border-radius: 14px;
+  width: 370px;           
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Title */
+.deposit-title {
+  color: #fff;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+/* Divider */
+.divider-line {
+  border-top: 1px solid #bfbbbb;
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 80px;
+}
+
+/* Main info */
+.deposit-info {
+  color: #fff;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  width: 330px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.deposit-info-bold {
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-weight: 700;
+}
+
+/* PIN instruction */
+.pin-instruction {
+  color: #fff;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 185px;
+  width: 330px;
+}
+
+/* PIN input */
+.pin-input {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  width: 330px;
+  height: 36px;
+  position: absolute;
+  left: 20px;
+  top: 240px;
+  padding-left: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Buttons */
+.btn-cancel,
+.btn-confirm {
+  border-radius: 16px;
+  border: 1px solid #fff;
+  height: 36px;
+  position: absolute;
+  top: 310px;
+  cursor: pointer;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background: transparent;
+  transition: background 0.3s;
+}
+
+.btn-cancel {
+  width: 100px;
+  left: 20px;
+}
+
+.btn-confirm {
+  width: 120px;
+  left: 230px;
+  background: #4d4a4a;
+}
+
+.btn-cancel:hover,
+.btn-confirm:hover {
+  background: #5e5c5c;
+}
+.credit-to-label {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+select.txt-creditto {
+    border-radius: 8px;
+    width: 320px;
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    font-family: "InstrumentSans-Regular", sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: black;
+    appearance: none;
+    cursor: pointer;
+        margin-top: 0;
+}
+select.txt-creditto option {
+    color: #757575;
+    background-color: #fff;
+}
+
